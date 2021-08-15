@@ -1,0 +1,50 @@
+@media screen and (max-width: 1000px) {
+    header{
+        height: 350px;
+    }
+    .li-inicio{
+        margin-right: 0;
+    }
+    nav ul li{
+        margin-left: 15px;
+        padding: 15px 0;
+        float:left
+    }
+    #li-caja1, #li-caja2, #li-caja3{
+        margin-left: 10%;
+    }
+    .dropdown-menu{
+        width: auto;
+    }
+    .txt-present{
+        top: 25%;
+        left: 40%;
+    }
+    .container{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+    }
+    .container .card{
+        width: 100%;
+        height: auto;
+    }
+    .caja1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .caja3{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .caja4{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .caja5{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+}
