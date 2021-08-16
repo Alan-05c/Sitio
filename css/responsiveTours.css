@@ -2,29 +2,40 @@
     header{
         height: 350px;
     }
-    .li-inicio{
-        margin-right: 0;
+    .logo{
+        display: none;
     }
-    nav ul li{
-        margin-left: 15px;
-        padding: 15px 0;
-        float:left
+    .menu{
+        width: 100%;
+        margin-top: 5%;
+        padding-left: 0;
     }
-    #li-caja1, #li-caja2, #li-caja3{
-        margin-left: 10%;
+    .menu ul li a{
+        margin: 0;
+        padding-top: 8%;
+        margin-right: 3%;
     }
-    .dropdown-menu{
-        width: auto;
+    ul li a{
+        margin: 0;
+        font-size: 11px;
     }
     .txt-present{
         top: 25%;
-        left: 40%;
+        left: 35%;
+    }
+    h2{
+        font-size: 25px;
     }
     .container{
         width: 100%;
-        max-width: 350px;
+        max-width: 300px;
         height: auto;
         display: block;
+        margin-left: 3%;
+    }
+    .container .card img{
+        width: 300px;
+        height: 190px;
     }
     .container .card{
         width: 100%;

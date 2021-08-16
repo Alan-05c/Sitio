@@ -10,6 +10,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     max-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     width: 100%;
@@ -42,11 +43,11 @@ nav{
     text-decoration: none;
     margin: 5%;
     margin-top: 0;
-    padding-top: 5%;
+    padding-top: 8%;
 }
 #navbarDropdownMenuLink{
     padding: 0;
-    padding-top: 5%;
+    padding-top: 8%;
 }
 .dropdown-item{
     color: #fff;
@@ -59,7 +60,7 @@ ul li a{
     padding: 0;
     float: left;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
 }
 .menu li a:hover{
     color: #F2A81D;
@@ -96,12 +97,14 @@ nav ul li a:hover::before {
 h1{
     color: #ffffff;
     font-size: 80px;
+    font-weight: 500;
     animation: bounce1 .7s alternate  ease-in;
     animation-iteration-count: 3;
 }
 h2{
     margin-left: 30%;
     font-size: 30px;
+    font-weight: normal;
     animation: jello .7s alternate  ease-in;
     animation-iteration-count: 3;
     color: #F2A81D;

@@ -10,41 +10,79 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    background-attachment: fixed;
+    background-attachment:local;
+    font-family: 'Roboto', sans-serif;
 }
 nav{
     width: 100%;
 }
-.li-inicio{
-    margin-right: 50%;
+.logo{
+    float: left;
+    width: 30%;
+    height: auto;
 }
-#navbarScrollingDropdown{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    color: #fff; 
+#logo{
+    width: 25%;
+    margin: 10%;
+    margin-left: 20%;
 }
-#navbarScrollingDropdown:hover{
-     color: #F2911B;
+.menu{
+    width: 70%;
+    float: right;
+    padding-left: 10%;
+    margin-top: 1%;
 }
-nav ul li{
-    display: inline;
+.menu ul{
     list-style: none;
-    margin-left: 45px;
-    padding: 25px 0;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 5%;
+    margin-top: 0;
+    padding-top: 8%;
+}
+#navbarDropdownMenuLink{
+    padding: 0;
+    padding-top: 8%;
+}
+.dropdown-item{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    display: inline;
+    margin-left: 5%;
+    padding: 0;
     float: left;
     position: relative;
+    font-size: 15px;
 }
-nav ul li a{
-    text-decoration: none;
+.menu li a:hover{
+    color: #F2A81D;
+}
+.dropdown-menu{
+    background-color: #00000050;
+    border-radius: 3px;
+}
+.nav-link{
     color: #fff;
 }
-nav ul li a::before{
+.nav-link:hover{
+    color: #F2A81D;
+}
+.dropdown-item:hover{
+    color: #F2A81D;
+    background-color: transparent;
+    width: 100%;
+}
+.menu ul li a::before{
     display: block;
     content: '';
     width: 0%;
-    background: #F2911B;
-    height: 5px;
+    background: #F2A81D;
+    height: 3px;
     top: 0;
     position: absolute;
     transition:  width .2s;
@@ -52,27 +90,6 @@ nav ul li a::before{
 nav ul li a:hover::before {
     width: 100%;
     background-color: #42b881;
-}
-nav ul li a:hover{
-    color: #F2911B;
-}
-#li-caja1, #li-caja2, #li-caja3{
-    margin-left: 26%;
-}
-.dropdown-item:hover{
-    color: #F2911B;
-    background-color: transparent;
-    width: 100%;
-}
-.dropdown-menu{
-    background-color: #00000050;
-    border-radius: 8px;
-}
-.dropdown-item{
-    color: #fff;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
 }
 .txt-present{
 	text-transform: uppercase;
