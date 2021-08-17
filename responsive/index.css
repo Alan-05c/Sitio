@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 15px;
+        margin-left: 15%;
+    }
+    .texto{
+        margin-left: 10%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+    }
+    #toggleMobileMenu {
+        background-color: #00000080;
+        border-radius: 10px;
+    }
+    #toggleMobileMenu ul li a:hover::before {
+        width: 15%;
+        background-color: #42b881;
+    }
+}
