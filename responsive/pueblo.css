@@ -3,9 +3,8 @@
     margin-left: 10%;
     height: auto;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 30%;
-    margin-top: -50px;
   }
   #toggleMobileMenu {
     background-color: #00000080;
@@ -36,19 +35,27 @@
     height: auto;
   }
   .caja1 {
-    margin-top: 5px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja2{
+    margin-top: 40px;
     margin-bottom: 5px;
   }
   .caja3 {
-    margin-top: 5px;
+    margin-top: 40px;
     margin-bottom: 5px;
   }
   .caja4 {
-    margin-top: 5px;
+    margin-top: 40px;
     margin-bottom: 5px;
   }
   .caja5 {
-    margin-top: 5px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja6{
+    margin-top: 40px;
     margin-bottom: 5px;
   }
   h2{
