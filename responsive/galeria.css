@@ -16,4 +16,7 @@
     section{
         height: 3900px;
     }
+    #img-redes a img{
+        margin-left: 5%;
+    }
 }
