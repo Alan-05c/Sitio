@@ -1,0 +1,104 @@
+@media screen and (max-width: 1000px) {
+    .txt-present {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 2px solid #fff;
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        padding: 30px 30px;
+      }
+      h1 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      h2 {
+        color: #f2a81d;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+      }
+      #container {
+        width: 250px;
+        height: 120px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+      }
+      #container .card {
+        width: 200px;
+        height: 120px;
+      }
+      #container .card img {
+        width: 200px;
+        height: 120px;
+      }
+      #carrusel {
+        height: 200px;
+        width: 290px;
+        display: block;
+        padding: 0;
+        margin: auto;
+      }
+      #carouselExampleFade {
+        margin: auto;
+        margin-top: 105%;
+        padding: 0;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+      }
+      .imgs{
+          height: 1100px;
+      }
+      .txt-form2 {
+        width: 100%;
+        height: auto;
+      }
+      .txt-somos {
+        width: 100%;
+        height: auto;
+      }
+      .form2 {
+        width: 320px;
+        height: auto;
+      }
+      #txt-preg {
+        margin: auto;
+      }
+      .form-subs {
+        margin: auto;
+      }
+      .imgs2 {
+        width: 100%;
+        height: 2300px;
+        display: block;
+      }
+      h6 {
+        text-align: center;
+        padding-top: 50px;
+      }
+      .container {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+      }
+      
+      .container .card {
+        width: 330px;
+        height: 400px;
+      }
+      
+      .container .card img {
+        width: 330px;
+        height: 180px;
+      }
+      .container .card p {
+        padding: 0 1rem;
+        font-size: 15px;
+        font-weight: 300;
+      }
+}

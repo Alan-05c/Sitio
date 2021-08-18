@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 15px;
+        margin-left: 15%;
+    }
+    .texto{
+        margin-left: 30%;
+        height: auto;
+        position: absolute;
+        top: 40%;
+        margin-top: -50px;
+    }
+    section{
+        height: 3900px;
+    }
+}

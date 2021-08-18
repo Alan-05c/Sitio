@@ -14,6 +14,9 @@ header {
   background-attachment: local;
   font-family: "Roboto", sans-serif;
 }
+section{
+  height: 1320px;
+}
 #toggleMobileMenu ul li a {
   color: #fff;
   font-size: 18px;
@@ -24,7 +27,7 @@ header {
   margin-left: 10%;
 }
 #toggleMobileMenu {
-  margin-left: 30%;
+  margin-left: 50%;
 }
 .dropdown-menu {
   background-color: #00000070;
@@ -92,3 +95,31 @@ h1 {
   width: 330px;
   height: 220px;
 }
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0c121d;
+  display: flex;
+  justify-content: center;
+}
+#redes {
+  padding-top: 10px;
+}
+#img-redes {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+#img-redes img {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+#titulo-redes {
+  font-size: 20px;
+  color: #fff;
+}
+#copy {
+  color: #fff;
+  margin-left: 30px;
+}
+

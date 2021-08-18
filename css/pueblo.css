@@ -26,7 +26,7 @@ header {
   margin-left: 10%;
 }
 #toggleMobileMenu {
-  margin-left: 30%;
+  margin-left: 50%;
 }
 .dropdown-menu {
   background-color: #00000070;
@@ -75,7 +75,7 @@ hr {
   margin-left: 4%;
   margin-right: 4%;
 }
-#container{
+#container {
   width: 100%;
   max-width: 1200px;
   height: auto;
@@ -136,7 +136,8 @@ li {
 .container .card a {
   font-weight: 500;
   text-decoration: none;
-  color: #3498db;
+  color: #000;
+  width: 140px;
 }
 .button {
   font-size: 11px;
@@ -158,18 +159,13 @@ li {
   margin-bottom: 3%;
   margin-left: 25%;
 }
-.caja1 {
-  margin-top: 10px;
+.caja2 {
+  margin-top: 15px;
 }
 .caja3 {
-  margin-top: 65px;
+  margin-top: 45px;
 }
-.caja4 {
-  margin-top: 320px;
-}
-.caja5 {
-  margin-top: 140px;
-}
+
 .button:hover {
   background-color: #00bb2d;
   box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
@@ -182,3 +178,31 @@ li {
 svg {
   margin-right: 5%;
 }
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0c121d;
+  display: flex;
+  justify-content: center;
+}
+#redes {
+  padding-top: 10px;
+}
+#img-redes {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+#img-redes img {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+#titulo-redes {
+  font-size: 20px;
+  color: #fff;
+}
+#copy {
+  color: #fff;
+  margin-left: 30px;
+}
+
