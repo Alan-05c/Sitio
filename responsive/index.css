@@ -15,23 +15,24 @@
   }
   .navbar-nav {
     background-color: #00000099;
-    border-radius: 30px;
+    border-radius: 20px;
     position: fixed;
     width: 100vw;
-    height: 100vh;
     flex-direction: column;
     z-index: 1;
+    top: 15%;
+    left: -1%;
   }
   .navbar-nav ul li,
   #toggleMobileMenu ul li {
-    margin: 10% 0 0 20%;
-    line-height: 55px;
+    margin: 5% 0 0 15%;
+    line-height: 25px;
   }
   .dropdown-menu {
     background-color: #00000099;
     position: fixed;
     width: 70%;
-    margin-left: -15%;
+    margin-left: -10%;
     flex-direction: column;
     z-index: 1;
   }
