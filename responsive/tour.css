@@ -1,96 +1,117 @@
 @media screen and (max-width: 1000px) {
-    .texto {
-      height: auto;
-      position: absolute;
-      top: 35%;
-      left: 35%;
-    }
-    #toggleMobileMenu {
-      background-color: #00000080;
-      border-radius: 10px;
-    }
-    #toggleMobileMenu ul li a:hover::before {
-      width: 15%;
-      background-color: #42b881;
-    }
-    section{
-        width: 100%;
-        height: auto;
-    }
-    #container{
-      width: 300px;
-      height: auto;
-      display: block;
-      margin: auto;
-    }
-    #container .card img {
-      width: 300px;
-      height: 190px;
-    }
-    #container .card {
-      width: 300px;
-      margin-left: -10px;
-      margin-bottom: 8%;
-      height: auto;
-    }
-    .caja1 {
-      margin-top: 40px;
-      margin-bottom: 5px;
-    }
-    .caja2{
-      margin-top: 40px;
-      margin-bottom: 5px;
-    }
-    .caja3 {
-      margin-top: 40px;
-      margin-bottom: 5px;
-    }
-    .caja4 {
-      margin-top: 40px;
-      margin-bottom: 5px;
-    }
-    .caja5 {
-      margin-top: 40px;
-      margin-bottom: 5px;
-    }
-    .caja6{
-      margin-top: 40px;
-      margin-bottom: 5px;
-    }
-    h2{
-        font-size: 25px;
-        margin: auto;
-        padding-top: 15px;
-        text-align: center;
-        font-weight: 300;
-        letter-spacing: 2px;
-    }
-    hr{
-        background-color: #f2a81d;
-    }
-    h4{
-        font-size: 20px;
-    }
-    p{
-        font-size: 8px;
-    }
-    h3{
-        font-size: 15px;
-    }
-    .Logo-riders{
-        width: 100px;
-        margin-top: -45px;
-    }
-    button{
-        margin-top: -45px;
-        margin-right: 10px;
-    }
-    #toggleMobileMenu{
-        margin-top: -70px;
-        margin-left: 100px;
-    }
-    #img-redes a img{
-      margin-left: 5%;
-    }
+  .texto {
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 35%;
   }
-  
+  #toggleMobileMenu {
+    background-color: #00000080;
+    border-radius: 10px;
+  }
+  #toggleMobileMenu ul li a:hover::before {
+    width: 15%;
+    background-color: #42b881;
+  }
+  section {
+    width: 100%;
+    height: auto;
+  }
+  #container {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  #container .card img {
+    width: 300px;
+    height: 190px;
+  }
+  #container .card {
+    width: 300px;
+    margin-left: -10px;
+    margin-bottom: 8%;
+    height: auto;
+  }
+  .caja1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja3 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja4 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja5 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .caja6 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 25px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  hr {
+    background-color: #f2a81d;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 8px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .Logo-riders {
+    width: 100px;
+    margin-top: -45px;
+  }
+  button {
+    margin-top: -45px;
+    margin-right: 10px;
+  }
+  #toggleMobileMenu {
+    margin-top: -70px;
+    margin-left: 100px;
+  }
+  #img-redes a img {
+    margin-left: 5%;
+  }
+  .navbar-nav {
+    background-color: #00000099;
+    border-radius: 30px;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    z-index: 1;
+  }
+  .navbar-nav ul li,
+  #toggleMobileMenu ul li {
+    margin: 10% 0 0 20%;
+    line-height: 55px;
+  }
+  .dropdown-menu {
+    background-color: #00000099;
+    position: fixed;
+    width: 70%;
+    margin-left: -15%;
+    flex-direction: column;
+    z-index: 1;
+  }
+}
