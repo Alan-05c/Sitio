@@ -60,24 +60,25 @@
         height: 100%;
       }
       .form2 {
-        width: 320px;
-        height: 350px;
+        width: 100%;
+        height: 400px;
       }
       #txt-preg {
-        margin: auto;
+        margin: 15px;
       }
       .form-subs {
-        margin: auto;
+        margin: 50px;
       }
       .imgs2 {
         width: 100%;
-        height: 1750px;
+        height: 1350px;
         display: block;
       }
       h6 {
         text-align: center;
         padding-top: 50px;
-      }#img-redes a img{
+      }
+      #img-redes a img{
         margin-left: 5%;
       }
       .container {
@@ -99,6 +100,8 @@
         height: 180px;
       }
       .container .card p {
+        text-align: justify;
+        margin-top: 20px;
         padding: 0 1rem;
         font-size: 15px;
         font-weight: 300;
