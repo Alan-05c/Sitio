@@ -72,7 +72,6 @@
       .imgs2 {
         width: 100%;
         height: 1350px;
-        display: block;
       }
       h6 {
         text-align: center;
@@ -84,8 +83,7 @@
       .container {
         width: 100%;
         height: 330px;
-        display: flex;
-        flex-wrap: wrap;
+        
         justify-content: center;
         margin: auto;
       }
